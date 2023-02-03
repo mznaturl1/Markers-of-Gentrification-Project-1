@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# MacIntosh DS_Store
+.DS_Store
+
+# Exclude Configuration Files
+config.py
+api_keys.py
