@@ -22,7 +22,7 @@ Saginaw County has the least population per zip code, with a median of 6162, com
 
 ## Adjusted Median Income
 
-![Kent_Income](https://user-images.githubusercontent.com/116215793/218325931-b79caaa3-9a56-414a-956a-63591ca009fe.gif)
+![Kent_Income](https://user-images.githubusercontent.com/116215793/218327133-9aa3cf37-7ecf-4b12-b214-a1a2bec7cc70.gif)
 
 ![Oakland_Income](https://user-images.githubusercontent.com/116215793/218326035-350ca797-00ca-4eab-a693-733916ba23f8.gif)
 
@@ -31,7 +31,7 @@ Saginaw County has the least population per zip code, with a median of 6162, com
 
 ## Adjusted Median Home Values
 
-![Kent_Home](https://user-images.githubusercontent.com/116215793/218326096-39e218fa-2775-4539-8325-39bfbe9feb58.gif)
+![Kent_Home](https://user-images.githubusercontent.com/116215793/218327142-5c4ea4ed-2aa2-4f75-b68f-9fdff67c90c5.gif)
 
 ![Oakland_Home](https://user-images.githubusercontent.com/116215793/218326104-1f66a070-9e3d-49d2-af9a-3c0b6951d3f6.gif)
 
@@ -58,7 +58,7 @@ Saginaw County has the least population per zip code, with a median of 6162, com
 
 # Percent of Population Unemployed
 
-![Kent_UE](https://user-images.githubusercontent.com/116215793/218326200-156bab23-8206-4b1a-b355-e44fe9eeaa14.gif)
+![Kent_UE](https://user-images.githubusercontent.com/116215793/218327158-b23161fe-a7f3-4d22-a9db-01f8a75bf25e.gif)
 
 ![Oakland_UE](https://user-images.githubusercontent.com/116215793/218326217-9470ea90-5025-4f5a-b097-dc34241ad8d1.gif)
 
