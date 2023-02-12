@@ -112,10 +112,12 @@ Poverty rates shift around the county for the first half of the decade, then dro
 ![Kent_Poverty](https://user-images.githubusercontent.com/116215793/218326232-9a29aec2-b8bc-4763-a71c-381a02d28e91.gif)
 
 Poverty rates actually grow in the center of the county for the first half of the decade, then see a slight reduction in the second half. The Southeast corner of the county sees this trend as well, but with a major reduction overall.
+
 ![Oakland_Poverty](https://user-images.githubusercontent.com/116215793/218326235-00d70fd5-34c8-4837-b051-89e7332031be.gif)
 
 
 There is no major overall change in poverty rates across the decade. 
+
 ![Saginaw_Poverty](https://user-images.githubusercontent.com/116215793/218326239-dc1371a1-be88-4a80-9bb2-73d001b677f4.gif)
 
 
