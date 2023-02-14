@@ -37,7 +37,7 @@ Oakland County shows a significant increase in income across most of the county,
 ![Oakland_Income](https://user-images.githubusercontent.com/116215793/218326035-350ca797-00ca-4eab-a693-733916ba23f8.gif)
 
 
-As a wholel, Saginaw is a much poorer community than Oakland or Kent. Saginaw does see a few pockets of increased income over time, but with much less overall growth than the other two counties. 
+As a whole, Saginaw is a much poorer community than Oakland or Kent. Saginaw does see a few pockets of increased income over time, but with much less overall growth than the other two counties. 
 
 ![Saginaw_Income](https://user-images.githubusercontent.com/116215793/218326041-1b5436b6-bffe-45cd-96a6-0caed5b38287.gif)
 
