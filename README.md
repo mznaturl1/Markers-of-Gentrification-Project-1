@@ -1,6 +1,11 @@
 # Measures of Gentrification Across Oakland, Kent, and Saginaw Counties, Michigan
 
-## Sourcing the Data
+## Background
+
+## Technologies Used
+
+
+## Description of Data Exploration
 
 The data was compiled using the Census API's Python wrapper. The chosen variables were the most likely to show indications of gentrification across each county: population size, poverty rates, unemployment rates, income, home values, and rent prices. 
 
@@ -11,8 +16,6 @@ Additional columns were created for the percentage of the population unemployed,
 The years 2011 - 2020 were chosen as a full and complete decade. These could easily be changed by shifting the API to call the desired years, as well as changing some of the iterators that ran per-year.
 
 
-## Summary Statistics
-
 Using the Shapiro-Wilk test, all variables per county were checked for normality. In all cases, the p-value was greater than .05, indicating that none of the variables were normally distributed. As a result, the standard measures of statistical significance could not be utilized, since they assume normality. 
 
 Oakland County has 66 zipcodes, while Saginaw has 25 and Kent has 31. 
@@ -20,7 +23,9 @@ Oakland County has 66 zipcodes, while Saginaw has 25 and Kent has 31.
 Oakland County has the highest Adjusted Median Income at almost $92,000, while Saginaw and Kent are between $60-70,000. 
 Saginaw County has the least population per zip code, with a median of 6162, compared to around 20,000 for Kent and Oakland.
 
-## Adjusted Median Income
+## Data Analysis
+
+###### Adjusted Median Income
 
 Towards 2020, Kent County sees an increase in income around the outskirts of the county, without much change near the center. 
 
@@ -37,7 +42,7 @@ As a wholel, Saginaw is a much poorer community than Oakland or Kent. Saginaw do
 ![Saginaw_Income](https://user-images.githubusercontent.com/116215793/218326041-1b5436b6-bffe-45cd-96a6-0caed5b38287.gif)
 
 
-## Adjusted Median Home Values
+###### Adjusted Median Home Values
 
 Kent County shows a boom in home prices right before 2020, centered in the middle of the county.
 
@@ -54,7 +59,7 @@ Saginaw, interestingly, shows a loss of home value over time, with a slight incr
 ![Saginaw_Home](https://user-images.githubusercontent.com/116215793/218326112-b1fd442c-abec-4abc-b1e6-6d6f79b449d7.gif)
 
 
-# Adjusted Median Rent Prices
+###### Adjusted Median Rent Prices
 
 Rent prices grow slightly over the decade, but with no major patterns.
 
@@ -71,7 +76,7 @@ Rent prices do not change significantly throughout the decade.
 ![Saginaw_Rent](https://user-images.githubusercontent.com/116215793/218326145-feaff192-1b4f-45c5-9c49-00c80bbf8e31.gif)
 
 
-# Total Population
+###### Total Population
 
 The county only sees slight growth over the decade, centered towards the middle of the county.
 
@@ -88,7 +93,7 @@ Saginaw County sees a decrease in population over the decade, mostly around the 
 ![Saginaw_Population](https://user-images.githubusercontent.com/116215793/218326177-f09c05b5-e119-479d-acef-2a1685d6bc3f.gif)
 
 
-# Percent of Population Unemployed
+###### Percent of Population Unemployed
 
 Unemployment rates decrease significantly across the county throughout the decade.
 
@@ -105,7 +110,7 @@ The entire county showed a reduction in unemployment over the decade, with a maj
 ![Saginaw_UE](https://user-images.githubusercontent.com/116215793/218326223-9a04020d-e367-4fb7-9406-6fcc40776acc.gif)
 
 
-# Percent of Population in Poverty
+###### Percent of Population in Poverty
 
 Poverty rates shift around the county for the first half of the decade, then drop significantly in the second half of the decade. The largest pocket of poverty remains in the center of the county.
 
@@ -120,6 +125,18 @@ There is no major overall change in poverty rates across the decade.
 
 ![Saginaw_Poverty](https://user-images.githubusercontent.com/116215793/218326239-dc1371a1-be88-4a80-9bb2-73d001b677f4.gif)
 
+
+## Limitations of the Dataset and Future Considerations
+
+## Contributors
+Tamica Grant @mznatural1
+Rhi Sehl @rhisehl
+Stephanie Wortman @steph-anie-w
+Jonathan Yang
+
+
+## Data Source
+U.S. Census Bureau's 2011-2020 American Community Survey 5-year estimates.
 
 
 
