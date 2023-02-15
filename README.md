@@ -2,15 +2,16 @@
 
 ## Description
 
-Analysis of key variables to predict communities at risk of gentrification by focusing on measures that show the migration of upper and middle income residents into traditionally low income areas. The chosen variables most likely to show indications of gentrification across selected counties: population size, poverty rates, unemployment rates, income, home values, and rent prices. Further analysis of the data attempting to find statistical significance across the chosen variables through the use of graphs and linear regression.
+Analysis of key variables to predict communities at risk of gentrification by focusing on measures that show the migration of upper and middle income residents into traditionally low income areas. The chosen variables were the most likely to show indications of gentrification across selected counties: population size, poverty rates, unemployment rates, income, home values, and rent prices. Further analysis of the data attempting to find statistical significance across the chosen variables through the use of graphs and linear regression.
 
 ### Background
+Gentrification is a process by which poorer communities are changed due to an influx of wealthier households. This process can be extremely detrimental to the community, as often the poorer inhabitants are forced out of the area due to rising costs of living. For the purpose of this project, businesses were not considered due to dataset limitations (to be discussed later). Determining what areas are in the early stages of gentrification can help social service agencies focus efforts to maintain housing stability for low income households. This can also assist lawmakers to investigate policies to protect those already living in the area.
 
-This project seeks to utilise previous research and input Census data to analyze changes in real communities that may be at risk. Previous quantitative studies have focused on income as a primary variable; however, this project seeks to explore the potential significance of demographic data, home value, and rent prices as well. Though the scope of this project was localized in Michigan, the primary data analysis framework can be used to explore other regions by simply importing other county's zipcodes while performing initial data exploration.
+This project seeks to utilize previous research and input Census data to analyze changes in real communities that may be at risk. Previous quantitative studies have focused on income as a primary variable; however, this project seeks to explore the potential significance of demographic data, home value, and rent prices as well. Though the scope of this project was localized in Michigan, the primary data analysis framework can be used to explore other regions by simply importing other county's zipcodes while performing initial data exploration.
 
 ### Technologies Used
 
-Python, Jupyter Notebook, CPI, Pandas, Matplotlib, Scipy, Numpy
+Python, Jupyter Notebook, CPI, Pandas, Matplotlib, Scipy, Numpy, Census, Seaborn, Git, GitHub
 
 ## Description of Data Exploration
 
@@ -154,9 +155,11 @@ There is no major overall change in poverty rates across the decade.
 
 ## Limitations of the Dataset and Future Considerations
 
-The Census data utilized is expansive and informative with time constraints of the project being its primary limitation, with more time it would be possible to delve deeper into the dataset and tease out potential relationships of significance. 
+The Census data utilized is expansive and informative with time constraints of the project being its primary limitation, with more time it would be possible to delve deeper into the dataset and tease out potential relationships of significance. It also, however, had a variety of limitations which need to be considered when evaluating the results. First, the census uses Zip Code Tabulation Areas (ZCTAs), which differ slightly from postal zip codes. This creates an issue when trying to combine the dataset with other datasets, as others do not use ZCTA. Second, the dataset does not include any information on businesses, which is a major issue when considering the first issue. This resulted in the requirement to remove business evaluations from the analysis. 
 
-Another limitation encountered is lack of normalized data hindering the allowance of standard measures of statistical significance. By randomizing the sample, it is possible that the data would be normal. This could be achieved by selecting counties from various regions across the country, selecting cities within the same population size, or selecting counties that encompass the same number of zip codes.
+The dataset is also compiled of yearly 5-year estimates. Since the data consists of estimates instead of actual measured information, there is a margin of error to be considered. 
+
+Another limitation encountered was lack of normalized data hindering the allowance of standard measures of statistical significance. By randomizing the sample, it is possible that the data would follow a more normal distribution. This could be achieved by selecting counties from various regions across the country, selecting cities within the same population size, or selecting counties that encompass the same number of zip codes.
 
 
 
