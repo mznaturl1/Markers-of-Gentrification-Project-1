@@ -138,18 +138,22 @@ The entire county showed a reduction in unemployment over the decade, with a maj
 
 ###### Percent of Population in Poverty
 
-Poverty rates shift around the county for the first half of the decade, then drop significantly in the second half of the decade. The largest pocket of poverty remains in the center of the county.
+Poverty rates shift around the county for the first half of the decade, then drop significantly in the second half of the decade. The largest pocket of poverty remains in the center of the county. The graph showing zipcodes supports a pocket of poverty. 
 
 ![Kent_Poverty](https://user-images.githubusercontent.com/116215793/218326232-9a29aec2-b8bc-4763-a71c-381a02d28e91.gif)
+![image](https://user-images.githubusercontent.com/116215793/219220667-8b139276-9e40-4319-bf7c-48401121c816.png)
 
-Poverty rates actually grow in the center of the county for the first half of the decade, then see a slight reduction in the second half. The Southeast corner of the county sees this trend as well, but with a major reduction overall.
+
+Poverty rates actually grow in the center of the county for the first half of the decade, then see a slight reduction in the second half. The Southeast corner of the county sees this trend as well, but with a major reduction overall. Most zip codes do not have a large rate of poverty, although there are specific pockets within the county that more poverty.
 
 ![Oakland_Poverty](https://user-images.githubusercontent.com/116215793/218326235-00d70fd5-34c8-4837-b051-89e7332031be.gif)
+![image](https://user-images.githubusercontent.com/116215793/219220429-2c162185-eb62-43a5-b125-16df7ccf3ebd.png)
 
 
-There is no major overall change in poverty rates across the decade. 
+There is no major overall change in poverty rates across the decade. There are, however, three major pockets of poverty within the county.
 
 ![Saginaw_Poverty](https://user-images.githubusercontent.com/116215793/218326239-dc1371a1-be88-4a80-9bb2-73d001b677f4.gif)
+![image](https://user-images.githubusercontent.com/116215793/219220847-419715f0-9488-469e-9595-24057f8efc93.png)
 
 
 
