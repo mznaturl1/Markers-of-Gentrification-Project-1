@@ -58,6 +58,8 @@ Saginaw, interestingly, shows a loss of home value over time (2011-2018). Home v
 
 ![Saginaw_Home](https://user-images.githubusercontent.com/116215793/218326112-b1fd442c-abec-4abc-b1e6-6d6f79b449d7.gif)
 
+![box_median home_value_counties](https://user-images.githubusercontent.com/117309455/218923987-e4735729-83ed-4bf2-aedc-3a9bca8a5ddb.png)
+
 
 ###### Adjusted Median Rent Prices
 
