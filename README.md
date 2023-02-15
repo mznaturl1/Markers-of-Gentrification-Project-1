@@ -155,7 +155,9 @@ There is no major overall change in poverty rates across the decade. There are, 
 ![Saginaw_Poverty](https://user-images.githubusercontent.com/116215793/218326239-dc1371a1-be88-4a80-9bb2-73d001b677f4.gif)
 ![image](https://user-images.githubusercontent.com/116215793/219220847-419715f0-9488-469e-9595-24057f8efc93.png)
 
+## Specific Zipcodes in Oakland County
 
+There are a few zipcodes in Oakland County that seem at higher risk of gentrification, or are currently undergoing gentrification. These are 48348 and 48360, both of which are located in the northern, more rural portion of the county. These zipcodes saw an increase in total population, income, home value, and rent, while also seeing a decline in percentages of poverty and unemployment. At least two factors for each zipcode were highly correlated with the year. These are all indicators of more wealthy individuals moving to the area and pushing those with lower income out of the area.
 
 ## Limitations of the Dataset and Future Considerations
 
