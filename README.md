@@ -1,27 +1,28 @@
-# Measures of Gentrification Across Oakland, Kent, and Saginaw Counties, Michigan
+# Measures of Gentrification Across Counties: Kent, Oakland, and Saginaw (Michigan)
 
-## Background
+## Description
 
-## Technologies Used
+Analysis of key variables to predict communities at risk of gentrification by focusing on measures that show the migration of upper and middle income residents into traditionally low income areas. The chosen variables most likely to show indications of gentrification across selected counties: population size, poverty rates, unemployment rates, income, home values, and rent prices. Further analysis of the data attempting to find statistical significance across the chosen variables through the use of graphs and linear regression.
 
+### Background
+
+This project seeks to utilise previous research and input Census data to analyze changes in real communities that may be at risk. Previous quantitative studies have focused on income as a primary variable; however, this project seeks to explore the potential significance of demographic data, home value, and rent prices as well. Though the scope of this project was localized in Michigan, the primary data analysis framework can be used to explore other regions by simply importing other county's zipcodes while performing initial data exploration.
+
+### Technologies Used
+
+Python, Jupyter Notebook, CPI, Pandas, Matplotlib, Scipy, Numpy
 
 ## Description of Data Exploration
 
-The data was compiled using the Census API's Python wrapper. The chosen variables were the most likely to show indications of gentrification across each county: population size, poverty rates, unemployment rates, income, home values, and rent prices. 
-
-This data was pulled into a dataframe and then all financial variables were converted to 2023 rates using an inflation module.
+The data was compiled using the Census API's Python wrapper. This data was pulled into a dataframe, then all financial variables were converted to 2023 rates using an inflation module (CPI).
 
 Additional columns were created for the percentage of the population unemployed, percentage in poverty, and some additional separations based on race. 
 
 The years 2011 - 2020 were chosen as a full and complete decade. These could easily be changed by shifting the API to call the desired years, as well as changing some of the iterators that ran per-year.
 
-
 Using the Shapiro-Wilk test, all variables per county were checked for normality. In all cases, the p-value was greater than .05, indicating that none of the variables were normally distributed. As a result, the standard measures of statistical significance could not be utilized, since they assume normality. 
 
-Oakland County has 66 zipcodes, while Saginaw has 25 and Kent has 31. 
-
-Oakland County has the highest Adjusted Median Income at almost $92,000, while Saginaw and Kent are between $60-70,000. 
-Saginaw County has the least population per zip code, with a median of 6162, compared to around 20,000 for Kent and Oakland.
+Oakland County has 66 zipcodes, while Saginaw has 25 and Kent has 31. Oakland County has the highest Adjusted Median Income at almost $92,000, while Saginaw and Kent are between $60-70,000. Saginaw County has the least population per zip code--with a median of 6162--compared to around 20,000 for both Kent and Oakland Counties.
 
 ## Data Analysis
 
@@ -67,21 +68,18 @@ Saginaw, interestingly, shows a loss of home value over time (2011-2018). Home v
 ![saginaw_linregress_adj_home_value](https://user-images.githubusercontent.com/117309455/218925238-4da84670-b57f-4774-8036-10bdebec877e.png)
 
 
-
-
 ###### Adjusted Median Rent Prices
 
-**Kent County**
 Rent prices grow slightly over the decade, but with no major patterns.
 
 ![Kent_Rent](https://user-images.githubusercontent.com/116215793/218326128-688305ab-6c45-4ece-b897-b035a962aa18.gif)
 
-**Oakland County**
+
 Rent prices increase mostly in the Southern and Western regions of the county.
 
 ![Oakland_Rent](https://user-images.githubusercontent.com/116215793/218326138-4e9c53e1-4832-4b71-ac66-57c090a304bf.gif)
 
-**Saginaw County**
+
 Rent prices do not change significantly throughout the decade.
 
 ![Saginaw_Rent](https://user-images.githubusercontent.com/116215793/218326145-feaff192-1b4f-45c5-9c49-00c80bbf8e31.gif)
@@ -89,17 +87,16 @@ Rent prices do not change significantly throughout the decade.
 
 ###### Total Population
 
-**Kent County**
 The county only sees slight growth over the decade, centered towards the middle of the county.
 
 ![Kent_Population](https://user-images.githubusercontent.com/116215793/218326157-8ce13ccd-353d-4b70-baba-313eb6e9d46e.gif)
 
-**Oakland County**
+
 The county sees a slight increase in population over the decade.
 
 ![Oakland_Population](https://user-images.githubusercontent.com/116215793/218326164-0ad0dc4e-a5fc-4f91-8015-540f8f67c981.gif)
 
-**Saginaw County**
+
 Saginaw County sees a decrease in population over the decade, mostly around the center of the county.
 
 ![Saginaw_Population](https://user-images.githubusercontent.com/116215793/218326177-f09c05b5-e119-479d-acef-2a1685d6bc3f.gif)
@@ -107,17 +104,16 @@ Saginaw County sees a decrease in population over the decade, mostly around the 
 
 ###### Percent of Population Unemployed
 
-**Kent County**
 Unemployment rates decrease significantly across the county throughout the decade.
 
 ![Kent_UE](https://user-images.githubusercontent.com/116215793/218327158-b23161fe-a7f3-4d22-a9db-01f8a75bf25e.gif)
 
-**Oakland County**
+
 As a whole, the county saw a reduction in unemployment. This reduction was less pronounced in the center of the county.
 
 ![Oakland_UE](https://user-images.githubusercontent.com/116215793/218326217-9470ea90-5025-4f5a-b097-dc34241ad8d1.gif)
 
-**Saginaw County**
+
 The entire county showed a reduction in unemployment over the decade, with a major reduction in the center of the county.
 
 ![Saginaw_UE](https://user-images.githubusercontent.com/116215793/218326223-9a04020d-e367-4fb7-9406-6fcc40776acc.gif)
@@ -125,42 +121,35 @@ The entire county showed a reduction in unemployment over the decade, with a maj
 
 ###### Percent of Population in Poverty
 
-**Kent County**
 Poverty rates shift around the county for the first half of the decade, then drop significantly in the second half of the decade. The largest pocket of poverty remains in the center of the county.
 
 ![Kent_Poverty](https://user-images.githubusercontent.com/116215793/218326232-9a29aec2-b8bc-4763-a71c-381a02d28e91.gif)
 
-**Oakland County**
 Poverty rates actually grow in the center of the county for the first half of the decade, then see a slight reduction in the second half. The Southeast corner of the county sees this trend as well, but with a major reduction overall.
 
 ![Oakland_Poverty](https://user-images.githubusercontent.com/116215793/218326235-00d70fd5-34c8-4837-b051-89e7332031be.gif)
 
-**Saginaw County**
+
 There is no major overall change in poverty rates across the decade. 
 
 ![Saginaw_Poverty](https://user-images.githubusercontent.com/116215793/218326239-dc1371a1-be88-4a80-9bb2-73d001b677f4.gif)
 
-## Overall Oakland County Insights and Possible Areas of Gentrification
 
-As a whole, Oakland County is an affluent county with pockets of major poverty. As expected, median income and median rent are positively correlated, although the distribution is more widespread than that of median income and median home values. 
-
-![image](https://user-images.githubusercontent.com/116215793/219112281-3e9f1793-4183-47d4-85b8-515574a5fa60.png)
-![image](https://user-images.githubusercontent.com/116215793/219112312-d2b9c22e-b55e-4954-a98e-cc129c9e327c.png)
-
-When considering the distribution of poverty between Black and White individuals, there is an inverse logarithmic relationship for both demographics as compared to median income. The interesting note, however, is that the lowest income areas have less than 25% of the population as White and impoverished, while up to 40% of low income areas are Black and impoverished. This is likely evidence of systemic racism at play, and shows areas where social services should focus efforts on improving equity. 
-
-![image](https://user-images.githubusercontent.com/116215793/219112962-3d2a7590-8b31-4bb8-a6a5-1413b283ae9f.png)
-![image](https://user-images.githubusercontent.com/116215793/219112975-3b393d73-7f40-4243-adcc-b49fb677ff47.png)
-
-There are two zipcodes in northern Oakland County which seem at significant risk of gentrification: 48360 (Lake Orion) and 48348 (Clarkston). Both of these zipcodes have seen an increase in total population, income, home value, and rent, while seeing a decrease in poverty and unemployment. These are signs that gentrification may occur. Future analysis should consider business openings within these areas to determine if more affluent businesses are opening in the area.  
 
 ## Limitations of the Dataset and Future Considerations
+
+The Census data utilized is expansive and informative with time constraints of the project being its primary limitation, with more time it would be possible to delve deeper into the dataset and tease out potential relationships of significance. 
+
+Another limitation encountered is lack of normalized data hindering the allowance of standard measures of statistical significance. By randomizing the sample, it is possible that the data would be normal. This could be achieved by selecting counties from various regions across the country, selecting cities within the same population size, or selecting counties that encompass the same number of zip codes.
+
+
 
 ## Contributors
 Tamica Grant @mznatural1
 Rhi Sehl @rhisehl
 Stephanie Wortman @steph-anie-w
-Jonathan Yang
+Jonathan Yang @jonyang6483
+
 
 
 ## Data Source
