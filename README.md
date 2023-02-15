@@ -48,21 +48,37 @@ As a whole, Saginaw is a much poorer community than Oakland or Kent. Saginaw doe
 ![box_median home_value_counties](https://user-images.githubusercontent.com/117309455/218923987-e4735729-83ed-4bf2-aedc-3a9bca8a5ddb.png)
 
 **Kent County** 
-Kent County endured declines in home values for each year between 2011- 2018.  Leading into 2020, home values began to surge, centered in the middle of the county. Of the three counties observed, Kent County has the alternate loftiest values, With an Adjusted Median Home Value of$179928.63. 
+Kent County. As of the 2020 Census, the county had a population of 657,974, making it the fourth most populous county in the State of Michigan. Its county seat is Grand Rapids in West Michigan.  The county was established in 1831 and organized in 1836.  In analyzing the data for the county, here are some interesting finds:
+•	Kent County endured declines in home values for each year between 2011- 2018.
+•	Kent County shows a boom in home prices right before 2020, centered in the middle of the county
+•	Adjusted Median Home Value and % White Poverty form a cluster with four outliers
+•	Adjusted Median Home Value and Adjusted Median Income are highly correlated
+
 
 ![Kent_Home](https://user-images.githubusercontent.com/116215793/218327142-5c4ea4ed-2aa2-4f75-b68f-9fdff67c90c5.gif)
 ![kent_linregress_adj_median_home_value](https://user-images.githubusercontent.com/117309455/218925038-c7554281-aa32-42c8-8afe-c3f27f8e368a.png)
 
 
 **Oakland County**
-Nearly the entire county of Oakland realizes a major increases in home values. The only area with nearly no change is at the center of the county. The Central Southern Region of the county holds an area of slower growth compared to the remainder of the county. Of the three counties, Oakland has a median Acclimated Median Home Value of $255,798.19.
+Oakland County is part of the Detroit metropolitan area, with the county seat in Pontiac. The county has a population of 1,274,395 at the 2020 Census, making it her second most populous county in the state. Founded in 1819, the county was organized in 1820.  In analyzing the data for the county, here are some interesting finds:
+•	Almost the entire county of Oakland sees a major boom in home prices. 
+•	The only area with virtually no change is at the center of the county. 
+•	There is a small pocket of slower growth as well, in the central Southern region. 
+•	Poverty count is highly determined by Adjusted Median Home Value
+•	Poverty Count – Black and Adjusted Median Home Value form a cluster with one outlier
+
 
 ![Oakland_Home](https://user-images.githubusercontent.com/116215793/218326104-1f66a070-9e3d-49d2-af9a-3c0b6951d3f6.gif)
 ![oakland_linregress_adj_median_home_value](https://user-images.githubusercontent.com/117309455/218924603-dc9f335c-194a-4201-b6ea-5715020d628b.png)
 
 
 **Saginaw County**
-Saginaw, interestingly, shows a loss of home value over time (2011-2018). Home values begin to increase steadily in leading to 2019 and 2020. The Adjusted Median Home Value is $184,227.49 for the 2011-2020 time frame.
+Saginaw County. Officially known as the County of Saginaw is Michigan's fifth largest metropolitan area and has the City of Saginaw (both known as Mid-Michigan) as its county seat. The county was formed on September 10, 1822, and fully incorporated on February 9, 1835. According to the 2020 Census, the county had a total population of 190,124.  In analyzing the data for the county, here are some interesting finds:
+• House prices fell between 2011 and 2018
+• House prices started to rise slightly by 2020
+• Adjusted Median Home Value and poverty figures – Whites are split into three groups, with one outlier.
+• Adjusted Median Home Value and Adjusted Income are highly correlated
+
 
 ![Saginaw_Home](https://user-images.githubusercontent.com/116215793/218326112-b1fd442c-abec-4abc-b1e6-6d6f79b449d7.gif)
 ![saginaw_linregress_adj_home_value](https://user-images.githubusercontent.com/117309455/218925238-4da84670-b57f-4774-8036-10bdebec877e.png)
