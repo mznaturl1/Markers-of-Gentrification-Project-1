@@ -135,6 +135,19 @@ There is no major overall change in poverty rates across the decade.
 
 ![Saginaw_Poverty](https://user-images.githubusercontent.com/116215793/218326239-dc1371a1-be88-4a80-9bb2-73d001b677f4.gif)
 
+## Overall Oakland County Insights and Possible Areas of Gentrification
+
+As a whole, Oakland County is an affluent county with pockets of major poverty. As expected, median income and median rent are positively correlated, although the distribution is more widespread than that of median income and median home values. 
+
+![image](https://user-images.githubusercontent.com/116215793/219112281-3e9f1793-4183-47d4-85b8-515574a5fa60.png)
+![image](https://user-images.githubusercontent.com/116215793/219112312-d2b9c22e-b55e-4954-a98e-cc129c9e327c.png)
+
+When considering the distribution of poverty between Black and White individuals, there is an inverse logarithmic relationship for both demographics as compared to median income. The interesting note, however, is that the lowest income areas have less than 25% of the population as White and impoverished, while up to 40% of low income areas are Black and impoverished. This is likely evidence of systemic racism at play, and shows areas where social services should focus efforts on improving equity. 
+
+![image](https://user-images.githubusercontent.com/116215793/219112962-3d2a7590-8b31-4bb8-a6a5-1413b283ae9f.png)
+![image](https://user-images.githubusercontent.com/116215793/219112975-3b393d73-7f40-4243-adcc-b49fb677ff47.png)
+
+There are two zipcodes in northern Oakland County which seem at significant risk of gentrification: 48360 (Lake Orion) and 48348 (Clarkston). Both of these zipcodes have seen an increase in total population, income, home value, and rent, while seeing a decrease in poverty and unemployment. These are signs that gentrification may occur. Future analysis should consider business openings within these areas to determine if more affluent businesses are opening in the area.  
 
 ## Limitations of the Dataset and Future Considerations
 
