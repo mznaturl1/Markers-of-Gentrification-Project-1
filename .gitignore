@@ -133,7 +133,4 @@ dmypy.json
 
 # Exclude Configuration Files
 config.py
-api_keys.py
 
-# Exclude large file
-Analysis/Resources/shapefiles/tl_rd22_us_zcta520.shp
