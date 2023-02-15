@@ -71,16 +71,17 @@ Saginaw, interestingly, shows a loss of home value over time (2011-2018). Home v
 
 ###### Adjusted Median Rent Prices
 
+**Kent County**
 Rent prices grow slightly over the decade, but with no major patterns.
 
 ![Kent_Rent](https://user-images.githubusercontent.com/116215793/218326128-688305ab-6c45-4ece-b897-b035a962aa18.gif)
 
-
+**Oakland County**
 Rent prices increase mostly in the Southern and Western regions of the county.
 
 ![Oakland_Rent](https://user-images.githubusercontent.com/116215793/218326138-4e9c53e1-4832-4b71-ac66-57c090a304bf.gif)
 
-
+**Saginaw County**
 Rent prices do not change significantly throughout the decade.
 
 ![Saginaw_Rent](https://user-images.githubusercontent.com/116215793/218326145-feaff192-1b4f-45c5-9c49-00c80bbf8e31.gif)
@@ -88,16 +89,17 @@ Rent prices do not change significantly throughout the decade.
 
 ###### Total Population
 
+**Kent County**
 The county only sees slight growth over the decade, centered towards the middle of the county.
 
 ![Kent_Population](https://user-images.githubusercontent.com/116215793/218326157-8ce13ccd-353d-4b70-baba-313eb6e9d46e.gif)
 
-
+**Oakland County**
 The county sees a slight increase in population over the decade.
 
 ![Oakland_Population](https://user-images.githubusercontent.com/116215793/218326164-0ad0dc4e-a5fc-4f91-8015-540f8f67c981.gif)
 
-
+**Saginaw County**
 Saginaw County sees a decrease in population over the decade, mostly around the center of the county.
 
 ![Saginaw_Population](https://user-images.githubusercontent.com/116215793/218326177-f09c05b5-e119-479d-acef-2a1685d6bc3f.gif)
@@ -105,16 +107,17 @@ Saginaw County sees a decrease in population over the decade, mostly around the 
 
 ###### Percent of Population Unemployed
 
+**Kent County**
 Unemployment rates decrease significantly across the county throughout the decade.
 
 ![Kent_UE](https://user-images.githubusercontent.com/116215793/218327158-b23161fe-a7f3-4d22-a9db-01f8a75bf25e.gif)
 
-
+**Oakland County**
 As a whole, the county saw a reduction in unemployment. This reduction was less pronounced in the center of the county.
 
 ![Oakland_UE](https://user-images.githubusercontent.com/116215793/218326217-9470ea90-5025-4f5a-b097-dc34241ad8d1.gif)
 
-
+**Saginaw County**
 The entire county showed a reduction in unemployment over the decade, with a major reduction in the center of the county.
 
 ![Saginaw_UE](https://user-images.githubusercontent.com/116215793/218326223-9a04020d-e367-4fb7-9406-6fcc40776acc.gif)
@@ -122,15 +125,17 @@ The entire county showed a reduction in unemployment over the decade, with a maj
 
 ###### Percent of Population in Poverty
 
+**Kent County**
 Poverty rates shift around the county for the first half of the decade, then drop significantly in the second half of the decade. The largest pocket of poverty remains in the center of the county.
 
 ![Kent_Poverty](https://user-images.githubusercontent.com/116215793/218326232-9a29aec2-b8bc-4763-a71c-381a02d28e91.gif)
 
+**Oakland County**
 Poverty rates actually grow in the center of the county for the first half of the decade, then see a slight reduction in the second half. The Southeast corner of the county sees this trend as well, but with a major reduction overall.
 
 ![Oakland_Poverty](https://user-images.githubusercontent.com/116215793/218326235-00d70fd5-34c8-4837-b051-89e7332031be.gif)
 
-
+**Saginaw County**
 There is no major overall change in poverty rates across the decade. 
 
 ![Saginaw_Poverty](https://user-images.githubusercontent.com/116215793/218326239-dc1371a1-be88-4a80-9bb2-73d001b677f4.gif)
